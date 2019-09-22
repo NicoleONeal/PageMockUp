@@ -1,11 +1,11 @@
 body {
-    margin: 20px;
+    margin: 30px;
     font-family: 'Roboto',
         sans-serif;
 }
 
 .pm .btn.btn-light {
-    color: #76777B
+    color: #76777B;
 }
 
 .case-study-image {
@@ -34,22 +34,28 @@ body {
 }
 
 .case-study-container {
-    text-align: center
+    text-align: center;
 }
 
 h4,
 h5 {
-    color: #76777B
+    color: #76777B;
 }
 
 p {
-    color: #8D8D8D
+    color: #8D8D8D;
 }
 
 .break {
-    height: 3px;
+    height: 2px;
     background-color: #8D8D8D;
-    border: 3px;
+    border: 2px;
     margin-bottom: 75px;
     margin-top: 15px;
+}
+
+.ad-text {
+    vertical-align: middle;
+    text-align: justify;
+    padding-top: 65px;
 }
