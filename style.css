@@ -6,11 +6,21 @@ body {
 
 #wrapper {
     max-width: 1200px;
-    text-align: center;
+    margin: 0 auto;
 }
 
 .pm .btn.btn-light {
     color: #76777B;
+}
+
+.main-content {
+    text-align: justify;
+}
+
+.main-c-row {
+    padding-top: 85px;
+    padding-bottom: 85px;
+    background: #F8F8F8;
 }
 
 .case-study-image {
@@ -57,6 +67,44 @@ body {
     margin-bottom: -300px
 }
 
+/*.social-icons {
+    height: 60px;
+    width: 60px;
+    border: 1px solid red;
+    background-position-y: -8px;
+    background-position-x: -8px;
+}*/
+
+.facebook {
+    background: url("asssts/facebook.png");
+    height: 64px;
+    width: 64px;
+}
+
+.instagram {
+    background: url("asssts/instagram.png");
+    height: 64px;
+    width: 64px;
+}
+
+.twitter {
+    background: url("asssts/twitter.png");
+    height: 64px;
+    width: 64px;
+}
+
+.vimeo {
+    background: url("asssts/vimeo.png");
+    height: 64px;
+    width: 64px;
+}
+
+.linkedin {
+    background: url("assets/linkedin.png");
+    height: 64px;
+    width: 64px;
+}
+
 h4,
 h5 {
     color: #76777B;
@@ -87,16 +135,6 @@ p {
     border: 1px;
     margin-bottom: 5px;
     margin-top: 10px;
-}
-
-.main-content {
-    text-align: justify;
-}
-
-.main-c-row {
-    padding-top: 85px;
-    padding-bottom: 85px;
-    background: #F8F8F8;
 }
 
 .follow-us {
