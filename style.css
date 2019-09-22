@@ -33,8 +33,18 @@ body {
     padding-bottom: 100%;
 }
 
+.case-study-row {
+    background: #4298CC;
+    padding-top: 10px
+}
+
 .case-study-container {
     text-align: center;
+    padding-top: 45px;
+}
+
+.case-study-text {
+    background: #F8F8F8;
 }
 
 h4,
@@ -66,12 +76,20 @@ p {
     background-color: #8D8D8D;
     border: 1px;
     margin-bottom: 45px;
-    margin-top: 55px;
+    margin-top: 5px;
 }
 
 .main-content {
     text-align: justify;
 }
+
+.main-c-row {
+    padding-top: 85px;
+    padding-bottom: 85px;
+    background: #F8F8F8;
+}
+
+
 
 .follow-us {
     text-align: center
