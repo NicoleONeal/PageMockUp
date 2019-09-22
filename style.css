@@ -1,0 +1,33 @@
+.case-study-image {
+    width: 50%;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.case-study-left {
+    background-image: url("assets/PreView-Xtreme.jpg");
+}
+
+.case-study-middle {
+    background-image: url("assets/case-study-3.jpg");
+}
+
+.case-study-right {
+    background-image: url("assets/sterling-ventures-cs.jpg");
+}
+
+
+.case-study-image::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.case-study-container {
+    text-align: center
+}
+
+body {
+    margin: 20px;
+}
