@@ -59,3 +59,11 @@ p {
     text-align: justify;
     padding-top: 65px;
 }
+
+.break-footer {
+    height: 1px;
+    background-color: #8D8D8D;
+    border: 1px;
+    margin-bottom: 45px;
+    margin-top: 55px;
+}
