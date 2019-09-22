@@ -4,6 +4,11 @@ body {
         sans-serif;
 }
 
+#wrapper {
+    max-width: 1200px;
+    text-align: center;
+}
+
 .pm .btn.btn-light {
     color: #76777B;
 }
@@ -35,16 +40,21 @@ body {
 
 .case-study-row {
     background: #4298CC;
-    padding-top: 10px
+    min-height: 500px;
 }
 
 .case-study-container {
     text-align: center;
-    padding-top: 45px;
 }
 
 .case-study-text {
     background: #F8F8F8;
+}
+
+.transparent-background {
+    top: -400px;
+    position: relative;
+    margin-bottom: -300px
 }
 
 h4,
@@ -75,8 +85,8 @@ p {
     height: 1px;
     background-color: #8D8D8D;
     border: 1px;
-    margin-bottom: 45px;
-    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-top: 10px;
 }
 
 .main-content {
@@ -88,8 +98,6 @@ p {
     padding-bottom: 85px;
     background: #F8F8F8;
 }
-
-
 
 .follow-us {
     text-align: center
@@ -128,4 +136,16 @@ p {
 
 .quick-links {
     color: #8D8D8D
+}
+
+.vl {
+    border-left: 1px solid #76777B;
+}
+
+.vr {
+    border-left: 1px solid #76777B;
+}
+
+.product-ad-margin {
+    padding-bottom: 100px;
 }
