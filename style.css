@@ -17,7 +17,6 @@
     background-image: url("assets/sterling-ventures-cs.jpg");
 }
 
-
 .case-study-image::after {
     content: "";
     display: block;
@@ -30,4 +29,19 @@
 
 body {
     margin: 20px;
+}
+
+h4,
+h5 {
+    color: #76777B
+}
+
+p {
+    color: #8D8D8D
+}
+
+.break {
+    height: 5px;
+    background-color: #f7afaf;
+    border: 5px;
 }
