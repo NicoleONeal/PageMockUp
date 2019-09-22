@@ -10,7 +10,8 @@ body {
 }
 
 .pm .btn.btn-light {
-    color: #76777B;
+    color: #F8F8F8;
+    background-color: #0A2240;
 }
 
 .main-content {
@@ -49,7 +50,7 @@ body {
 }
 
 .case-study-row {
-    background: #4298CC;
+    background: #0A2240;
     min-height: 500px;
 }
 
@@ -123,14 +124,6 @@ p {
     padding-top: 65px;
 }
 
-.break-footer {
-    height: 1px;
-    background-color: #8D8D8D;
-    border: 1px;
-    margin-bottom: 5px;
-    margin-top: 10px;
-}
-
 .follow-us {
     text-align: center
 }
@@ -180,4 +173,16 @@ p {
 
 .product-ad-margin {
     padding-bottom: 100px;
+}
+
+.footer-color {
+    background: #F8F8F8;
+}
+
+.break-footer {
+    height: 1px;
+    background-color: #8D8D8D;
+    border: 1px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
