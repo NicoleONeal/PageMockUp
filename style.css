@@ -67,42 +67,36 @@ body {
     margin-bottom: -300px
 }
 
-/*.social-icons {
-    height: 60px;
-    width: 60px;
-    border: 1px solid red;
-    background-position-y: -8px;
-    background-position-x: -8px;
-}*/
-
-.facebook {
-    background: url("asssts/facebook.png");
+.social-icons {
     height: 64px;
     width: 64px;
+}
+
+.social-center {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.facebook {
+    background: url("assets/facebook.png");
 }
 
 .instagram {
-    background: url("asssts/instagram.png");
-    height: 64px;
-    width: 64px;
+    background: url("assets/instagram.png");
 }
 
 .twitter {
-    background: url("asssts/twitter.png");
-    height: 64px;
-    width: 64px;
+    background: url("assets/twitter.png");
 }
 
 .vimeo {
-    background: url("asssts/vimeo.png");
-    height: 64px;
-    width: 64px;
+    background: url("assets/vimeo.png");
 }
 
 .linkedin {
     background: url("assets/linkedin.png");
-    height: 64px;
-    width: 64px;
 }
 
 h4,
